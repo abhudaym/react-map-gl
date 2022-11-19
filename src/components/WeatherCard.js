@@ -3,7 +3,7 @@ import { Card, CardContent, Typography } from "@mui/material";
 const WeatherCard = ({ city, temp, weather }) => {
   console.log(weather);
   return (
-    <Card>
+    <Card sx={{ boxShadow: 0 }}>
       <CardContent>
         <Typography variant="h5" component="div">
           {city}
